@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="I_Am_Poor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="anm-qa-cK4">
+                                <rect key="frame" x="44" y="0.0" width="808" height="393"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vY1-yt-hdu">
+                                        <rect key="frame" x="0.0" y="0.0" width="808" height="180"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPoor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAN-0B-rPU">
+                                                <rect key="frame" x="352" y="60" width="104.5" height="60"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="60" id="Kha-n0-Eyt"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="40"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="vAN-0B-rPU" firstAttribute="centerX" secondItem="vY1-yt-hdu" secondAttribute="centerX" id="Eua-MQ-m6h"/>
+                                            <constraint firstItem="vAN-0B-rPU" firstAttribute="centerY" secondItem="vY1-yt-hdu" secondAttribute="centerY" id="hE3-Lr-JSJ"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pYg-0v-jdW">
+                                        <rect key="frame" x="0.0" y="213" width="808" height="180"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kisspng-clip-art-standard-poor-s-5b21eeb4da1233.1811603315289504528932" translatesAutoresizingMaskIntoConstraints="NO" id="jRw-qd-QvA">
+                                                <rect key="frame" x="324" y="-9.5" width="160" height="199"/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <constraints>
+                                            <constraint firstItem="jRw-qd-QvA" firstAttribute="centerX" secondItem="pYg-0v-jdW" secondAttribute="centerX" id="Y4C-Q8-N2a"/>
+                                            <constraint firstItem="jRw-qd-QvA" firstAttribute="centerY" secondItem="pYg-0v-jdW" secondAttribute="centerY" id="apZ-qO-tLv"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="anm-qa-cK4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="394-Pf-QeQ"/>
+                            <constraint firstItem="anm-qa-cK4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9lK-29-VOX"/>
+                            <constraint firstItem="anm-qa-cK4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="DcI-dK-3uQ"/>
+                            <constraint firstItem="anm-qa-cK4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Q0e-YR-v0I"/>
+                            <constraint firstItem="anm-qa-cK4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="W1X-Hz-Ja5"/>
+                            <constraint firstItem="anm-qa-cK4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cja-P2-nTW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="anm-qa-cK4" secondAttribute="bottom" id="eok-ix-oyf"/>
+                            <constraint firstItem="anm-qa-cK4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tt5-G8-OXs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="kisspng-clip-art-standard-poor-s-5b21eeb4da1233.1811603315289504528932" width="160" height="199"/>
+    </resources>
+</document>
